@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/P_img_1"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="95dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textSize="20sp"
+        android:textColor="@color/tertiaryColor"/>
+
+    <ImageView
+        android:id="@+id/P_img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/profile_2"/>
+
+    <TextView
+        android:id="@+id/P_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_img_2"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:textColor="@color/tertiaryColor"
+        android:fontFamily="@font/intersemibold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/P_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_text_1"
+        android:layout_centerHorizontal="true"
+        android:text="username"
+        android:fontFamily="@font/interregular"
+        android:textColor="@color/tertiaryColor"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_text_2"
+        android:width="270dp"
+        android:height="50dp"
+        android:text="Edit Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/interregular"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:id="@+id/P_button1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/P_button1"
+        android:width="270dp"
+        android:height="50dp"
+        android:text="Log out"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/interregular"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:id="@+id/P_button2"/>
+
+
+</RelativeLayout>

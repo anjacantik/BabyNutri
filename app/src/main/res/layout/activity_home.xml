@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/H_img_1"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:src="@drawable/gambar1" />
+
+    <TextView
+        android:id="@+id/H_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Moms!"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textSize="22sp"
+        android:textColor="@color/tertiaryColor"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/profile"
+        android:id="@+id/btn_profile"/>
+
+    <TextView
+        android:id="@+id/H_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/H_text_1"
+        android:text="Bite-sized Wellness for Your Little One: Growing Healthy, Growing Happy!"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/notosanaslight"
+        android:textSize="19sp"
+        android:textColor="@color/tertiaryColor" />
+
+    <TextView
+        android:id="@+id/H_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/H_img_1"
+        android:text="Categories"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textSize="20sp"
+        android:textColor="@color/tertiaryColor"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/H_text_3"
+        android:src="@drawable/kategori_1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/H_text_3"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="6-8 months"
+        android:textColor="@color/tertiaryColor"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/H_text_3"
+        android:src="@drawable/kategori_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/H_text_3"
+        android:text="9-12 months"
+        android:layout_marginTop="168dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textColor="@color/tertiaryColor"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
+
+
+
