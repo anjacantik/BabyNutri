@@ -7,7 +7,7 @@
     tools:context=".EditActivity">
 
     <ImageView
-        android:id="@+id/E_img_12334"
+        android:id="@+id/E_img_1"
         android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_height="95dp"
