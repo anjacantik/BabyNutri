@@ -7,7 +7,7 @@
     tools:context=".MenuActivity1">
 
     <ImageView
-        android:id="@+id/E_img_1"
+        android:id="@+id/ML1_img_1"
         android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_height="95dp"
@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="35dp"
-        android:src="@drawable/ic_back" />
+        android:src="@drawable/ic_back"
+        android:id="@+id/backml1"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,4 +31,137 @@
         android:textSize="20sp"
         android:textColor="@color/tertiaryColor"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ML1_img_1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/menu1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu11"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu11"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Pure Ubi Kuning dan Ayam"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_1"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_1"
+                android:src="@drawable/menu12"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="114dp"
+                android:layout_height="103dp"
+                android:layout_below="@id/menu1_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="48dp"
+                android:layout_toEndOf="@id/menu12"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Bubur Nasi Ikan Nila dan Kacang Panjang"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_2"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_2"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/menu13" />
+
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="91dp"
+                android:layout_below="@id/menu1_2"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu13"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Bubur Udang dan Puyuh"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_3"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu1_3"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/menu14" />
+
+            <TextView
+                android:layout_width="92dp"
+                android:layout_height="88dp"
+                android:layout_below="@id/menu1_3"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu14"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Nasi Tim Daging Sapi"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

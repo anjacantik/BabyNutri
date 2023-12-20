@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="35dp"
-        android:src="@drawable/ic_back" />
+        android:src="@drawable/ic_back"
+        android:id="@+id/backprofile"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/P_text_1"
         android:layout_centerHorizontal="true"
-        android:text="username"
+        android:text="email"
         android:fontFamily="@font/interregular"
         android:textColor="@color/tertiaryColor"
         android:textSize="14sp"

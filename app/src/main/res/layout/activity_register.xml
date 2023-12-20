@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".RegisterActivity">
 
         <ImageView
@@ -17,29 +19,54 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/logo2"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="35dp"
             android:id="@+id/R_img_2"/>
 
         <TextView
-            android:id="@+id/R_email"
+            android:id="@+id/R_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/R_img_2"
-            android:layout_marginTop="25dp"
             android:layout_marginLeft="58dp"
             android:fontFamily="@font/interregular"
-            android:text="Email"
+            android:text="Name"
             android:textColor="@color/tertiaryColor"
             android:textSize="14sp"
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/R_nama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="2dp"
+            android:textSize="13sp"
+            android:fontFamily="@font/interregular"
+            android:hint="Masukkan nama"
+            android:paddingLeft="15dp"
+            android:background="@drawable/colominput"
+            android:height="48dp"
+            android:minHeight="48dp"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/R_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/interregular"
+            android:text="Email"
+            android:textColor="@color/tertiaryColor"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <EditText
             android:id="@+id/R_email2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/R_email"
             android:layout_marginLeft="55dp"
             android:layout_marginRight="55dp"
             android:layout_marginTop="2dp"
@@ -49,44 +76,16 @@
             android:paddingLeft="15dp"
             android:background="@drawable/colominput"
             android:height="48dp"
+            android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            />
-
-        <TextView
-            android:id="@+id/R_uname1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/R_email2"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="58dp"
-            android:fontFamily="@font/interregular"
-            android:text="Username"
-            android:textColor="@color/tertiaryColor"
-            android:textSize="14sp"
-            android:textStyle="bold"/>
-        <EditText
-            android:id="@+id/R_uname2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/R_uname1"
-            android:layout_marginLeft="55dp"
-            android:layout_marginRight="55dp"
-            android:layout_marginTop="2dp"
-            android:textSize="13sp"
-            android:fontFamily="@font/interregular"
-            android:hint="Masukkan username"
-            android:paddingLeft="15dp"
-            android:background="@drawable/colominput"
-            android:height="48dp"
-            android:minHeight="48dp"
+            android:ems="10"
             />
 
         <TextView
             android:id="@+id/R_passwordEditText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/R_uname2"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="58dp"
             android:fontFamily="@font/interregular"
             android:text="Password"
@@ -97,7 +96,6 @@
             android:id="@+id/R_passwordEditText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/R_passwordEditText1"
             android:layout_marginLeft="55dp"
             android:layout_marginRight="55dp"
             android:layout_marginTop="2dp"
@@ -108,29 +106,64 @@
             android:background="@drawable/colominput"
             android:height="48dp"
             android:minHeight="48dp"
-            android:inputType="text"/>
+            android:inputType="textPassword"
+            android:ems="10"/>
+
+        <TextView
+            android:id="@+id/R_passwordEditText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="58dp"
+            android:fontFamily="@font/interregular"
+            android:text="Re-Enter Password"
+            android:textColor="@color/tertiaryColor"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/R_passwordEditText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="2dp"
+            android:textSize="13sp"
+            android:fontFamily="@font/interregular"
+            android:hint="Masukkan ulang password"
+            android:paddingLeft="15dp"
+            android:background="@drawable/colominput"
+            android:height="48dp"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:ems="10"/>
 
         <Button
             android:id="@+id/R_button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/R_passwordEditText2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
             android:background="@drawable/login"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
             android:text="Sign Up"
+            android:onClick="save"
             android:fontFamily="@font/intersemibold"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textAllCaps="false"/>
 
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_below="@id/R_button2"
             android:gravity="center"
-            android:layout_marginTop="40dp">
+            android:layout_marginTop="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -146,7 +179,6 @@
                     android:fontFamily="@font/interregular"
                     android:id="@+id/txt_login"
                     android:textColor="@color/secondaryColor"/>
-
         </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

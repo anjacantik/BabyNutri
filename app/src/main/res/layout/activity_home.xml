@@ -59,41 +59,43 @@
         android:textColor="@color/tertiaryColor"/>
 
     <ImageView
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
         android:layout_below="@id/H_text_3"
         android:src="@drawable/kategori_1"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnkategori1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/H_text_3"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="145dp"
         android:fontFamily="@font/playfairdisplaybold"
         android:text="6-8 months"
         android:textColor="@color/tertiaryColor"
         android:textSize="18sp" />
 
     <ImageView
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
         android:layout_below="@id/H_text_3"
         android:src="@drawable/kategori_2"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="12dp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnkategori2"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/H_text_3"
         android:text="9-12 months"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="145dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="49dp"
+        android:layout_marginEnd="52dp"
         android:fontFamily="@font/playfairdisplaybold"
         android:textColor="@color/tertiaryColor"
         android:textSize="18sp"/>

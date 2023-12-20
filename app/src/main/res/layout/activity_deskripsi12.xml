@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiActivity1_2">
+
+    <ImageView
+        android:id="@+id/D1_img_2"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="95dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/backd1"/>
+
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="Bubur Nasi Ikan Nila dan Kacang Panjang"
+        android:textColor="@color/tertiaryColor"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/D1_img_2"
+        android:layout_marginTop="68dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu12"
+        android:id="@+id/dmenu12"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dmenu12"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/rectangled" />
+
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="214dp"
+        android:layout_below="@id/dmenu12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="Bubur Nasi Ikan nila dan Kacang Panjang adalah MPASI untuk usia 6-8 bulan yang menggunakan nasi sebagai karbo, ikan nila yang sudah di fillet sebagai protein, dan kacang panjang sebagai serat yang dapat memenuhi kebutuhan gizi bayi."
+        android:textSize="18sp"
+        android:fontFamily="@font/notosansregular"
+        android:textColor="@color/tertiaryColor"/>
+
+</RelativeLayout>

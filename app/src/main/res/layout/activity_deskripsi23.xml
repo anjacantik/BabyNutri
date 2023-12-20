@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiActivity2_3">
+
+    <ImageView
+        android:id="@+id/D2_img_1"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="95dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/backd2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kroket Kentang"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textSize="20sp"
+        android:textColor="@color/tertiaryColor"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/D2_img_1"
+        android:layout_marginTop="68dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu23"
+        android:id="@+id/dmenu23"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dmenu23"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/rectangled" />
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/dmenu23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/notosansregular"
+        android:gravity="center"
+        android:text="Kroket Kentang merupakan MPASI untuk usia 9-12 bulan buat anak yang lagi bosan makan nasi, dengan menggunakan kentang sebagai karbo, daging giling dan telur sebagai protein, wortel sebagai serat, dan susu bubuk serta margarin sebagai lemak yang pastinya tetap memenuhi kebutuhan gizi bayi."
+        android:textColor="@color/tertiaryColor"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

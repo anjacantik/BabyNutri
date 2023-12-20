@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity2">
+
+    <ImageView
+        android:id="@+id/ML2_img_1"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="95dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/backml2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu List for 9-12 Months"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textSize="20sp"
+        android:textColor="@color/tertiaryColor"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ML2_img_1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/menu2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu21"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu21"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Nasi Tim Tuna Kemangi"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_1"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_1"
+                android:src="@drawable/menu22"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="96dp"
+                android:layout_below="@id/menu2_1"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu23"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Pasta Creamy Simple"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_2"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_2"
+                android:src="@drawable/menu23"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="57dp"
+                android:layout_below="@id/menu2_2"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="73dp"
+                android:layout_toEndOf="@id/menu23"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Kroket Kentang"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/menu2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_3"
+                android:src="@drawable/rectangleeee"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:id="@+id/menu24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menu2_3"
+                android:src="@drawable/menu24"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="75dp" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="86dp"
+                android:layout_below="@id/menu2_3"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/menu24"
+                android:fontFamily="@font/playfairdisplaybold"
+                android:text="Yummy Bites Noodle"
+                android:textColor="@color/tertiaryColor"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

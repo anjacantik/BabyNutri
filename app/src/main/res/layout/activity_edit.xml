@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="35dp"
-        android:src="@drawable/ic_back" />
+        android:src="@drawable/ic_back"
+        android:id="@+id/backeditprofile"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -99,7 +100,7 @@
         />
 
     <Button
-        android:id="@+id/E_button2"
+        android:id="@+id/E_button1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/E_email2"
